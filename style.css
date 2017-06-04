@@ -1,16 +1,28 @@
 
 
-table#Navigation_bar_table {
-	font-size:30;
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #F2F3F4;
 }
+ 
+
+.Navigation_bar_table{
+	font-family: Courier;
+}
+
 
 
 h1#Welcome {
 	text-align:center;
 	font-size:25px;
-	font-stretch: 
-	font-family:'Arial Header';
-	color:blue;
+	font-family: Courier;
+	color: black;
 }
 
 img {
@@ -38,4 +50,5 @@ p#Landing_page_description {
 	margin-right: : 10px;
 	font-size: 20px;
 	text-align:justify;
+	font-family: Courier;
 	}
