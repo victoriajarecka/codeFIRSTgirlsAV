@@ -1,6 +1,3 @@
-
-
-
 /*
  * Base structure
  */
@@ -25,11 +22,11 @@ h1#logosentence {
 	display: inline-flex;
 	font-size: 50px;
 	font-family: 'Proxima Nova', 'Medium', sans-serif;
-	font-color: #11aaed;
-	font weight: light;
+	color: #11aaed;
+	font-weight: light;
 }
 
-.Navigation_bar_table{
+.navigation_bar_table{
 	font-family: Courier;
 	font-size: 40px;
 }
@@ -47,14 +44,14 @@ img {
 	width: 100%;
 	}
 
-.Landing_page_image {
+.landing_page_image {
 	padding: 4px;
 	border: 1px solid rgba(0, 0, 0, 0.2); /* transparent black border */
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 	}
 
 /* You need this for all browsers to understand your CSS */
-.Landing_page_image {
+.landing_page_image {
 	width: 70%;
 	padding: 4px;
 	background-color: #fff;
@@ -64,7 +61,7 @@ img {
 	margin-right: 15%;
 	}
 
-p#Landing_page_description {
+p#landing_page_description {
 	padding: 10px;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -75,10 +72,16 @@ p#Landing_page_description {
 
 @media all and (max-width: 600px) {
   
+  h1#logosentence {
+  	font-size: 16px;
+}
+
   h2#welcome {
   	font-size: 16px;
   }
 
+  p#landingpagedescription {
+  	font-size: 16px;
+  }
 
-  
 }

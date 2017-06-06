@@ -6,8 +6,16 @@ body {
   background-color: #F2F3F4;
 }
 
+h1#logosentence {
+	display: inline-flex;
+	font-size: 50px;
+	font-family: 'Proxima Nova', 'Medium', sans-serif;
+	color: #11aaed;
+	font-weight: light;
+}
 
-.Navigation_bar_table{
+
+.navigation_bar_table{
 	font-family: Courier;
 }
 
@@ -18,7 +26,7 @@ body {
 	color: black;
 }
 
-.aboutustabledescription{
+.aboutustabledescription {
 	font-family: Courier;
 }
 
@@ -27,16 +35,23 @@ h2#aboutus {
 	font-family: Courier;
 }
 
-p#andrea{
+p#andreadescription {
 	font-family: Courier;
 	text-align: justify;
 	margin-left:10%; 
 	margin-right:10%;
 }
 
-p#vicky{
+p#vickydescription {
 	font-family: Courier;
 	text-align: justify;
 	margin-left:10%; 
 	margin-right:10%;
 }
+
+@media all and (max-width: 600px) {
+  
+  h1#logosentence {
+  	font-size: 16px;}
+
+  }
