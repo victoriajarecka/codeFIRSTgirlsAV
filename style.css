@@ -70,18 +70,36 @@ p#landing_page_description {
 	font-family: Courier;
 	}
 
-@media all and (max-width: 600px) {
+ h3{
+ 	font-family: Courier;
+ 	font-size: 25px;
+ }
+
+p#andreadescription {
+	font-family: Courier;
+	text-align: justify;
+}
+
+p#vickydescription {
+	font-family: Courier;
+	text-align: justify;
+}
+
+
+
+@media all and (max-width: 600px) 
+{
   
   h1#logosentence {
   	font-size: 16px;
-}
+	}
 
   h2#welcome {
   	font-size: 16px;
-  }
+  	}
 
   p#landingpagedescription {
   	font-size: 16px;
-  }
+  	}
 
 }

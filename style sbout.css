@@ -6,6 +6,17 @@ body {
   background-color: #F2F3F4;
 }
 
+.logo {
+	width:200px;
+	height:auto;
+	display: inline-block;
+	font-family: futura, bold;
+	font-size: 20px;
+	text-align: center;
+	vertical-align:middle;
+}
+
+
 h1#logosentence {
 	display: inline-flex;
 	font-size: 50px;
@@ -19,35 +30,8 @@ h1#logosentence {
 	font-family: Courier;
 }
 
-.aboutustitle {
-	text-align:center;
-	font-size:25px;
-	font-family: Courier;
-	color: black;
-}
 
-.aboutustabledescription {
-	font-family: Courier;
-}
 
-h2#aboutus {
-	text-align: center;
-	font-family: Courier;
-}
-
-p#andreadescription {
-	font-family: Courier;
-	text-align: justify;
-	margin-left:10%; 
-	margin-right:10%;
-}
-
-p#vickydescription {
-	font-family: Courier;
-	text-align: justify;
-	margin-left:10%; 
-	margin-right:10%;
-}
 
 @media all and (max-width: 600px) {
   
