@@ -26,9 +26,9 @@ h1#logosentence {
 	font-weight: light;
 }
 
-.navigation_bar_table{
+.navigation_bar_table {
 	font-family: Courier;
-	font-size: 40px;
+	font-size: 25px;
 }
 
 
@@ -65,10 +65,15 @@ p#landing_page_description {
 	padding: 10px;
 	margin-left: 10%;
 	margin-right: 10%;
-	font-size: 40px;
+	font-size: 30px;
 	text-align:justify;
 	font-family: Courier;
 	}
+
+img#socialmedia {
+	size: 90;
+}
+
 
  h3{
  	font-family: Courier;
@@ -78,27 +83,33 @@ p#landing_page_description {
 p#andreadescription {
 	font-family: Courier;
 	text-align: justify;
+	padding: 15px;
 }
 
 p#vickydescription {
 	font-family: Courier;
 	text-align: justify;
+	padding: 15px;
 }
 
 
 
-@media all and (max-width: 600px) 
+@media all and (max-width: 700px) 
 {
   
   h1#logosentence {
-  	font-size: 16px;
+  	font-size: 25px;
 	}
+
+.navigation_bar_table {
+	font-size: 20;
+}
 
   h2#welcome {
   	font-size: 16px;
   	}
 
-  p#landingpagedescription {
+  p#landing_page_description {
   	font-size: 16px;
   	}
 
