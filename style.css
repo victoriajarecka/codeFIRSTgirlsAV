@@ -8,27 +8,29 @@
 html,
 body {
   height: 100%;
-  background-color: #F2F3F4;
+  background-color: #F8F8FF;
 }
  
+ .logo {
+	width:20%;
+	height:auto;
+	display: block;
+	margin: 0 auto;
+}
 
 .Navigation_bar_table{
 	font-family: Courier;
+	font-size: 25px;
 }
 
 
 h1#Welcome {
 	text-align:center;
-	font-size:25px;
+	font-size:20px;
 	font-family: Courier;
 	color: black;
 }
 
-img#logo{
-	width:25%;
-	height:auto;
-	align-items: left;
-}
 
 img {
 	width: 100%;
