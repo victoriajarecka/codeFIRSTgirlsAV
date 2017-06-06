@@ -11,13 +11,15 @@ body {
 	font-family: Courier;
 }
 
-
-
-h1#aboutustitle {
+.aboutustitle {
 	text-align:center;
 	font-size:25px;
 	font-family: Courier;
 	color: black;
+}
+
+.aboutustabledescription{
+	font-family: Courier;
 }
 
 h2#aboutus {
@@ -25,3 +27,16 @@ h2#aboutus {
 	font-family: Courier;
 }
 
+p#andrea{
+	font-family: Courier;
+	text-align: justify;
+	margin-left:10%; 
+	margin-right:10%;
+}
+
+p#vicky{
+	font-family: Courier;
+	text-align: justify;
+	margin-left:10%; 
+	margin-right:10%;
+}
