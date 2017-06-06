@@ -1,4 +1,27 @@
 
-h1{
-	color: red;
+
+tml,
+body {
+  height: 100%;
+  background-color: #F2F3F4;
 }
+
+
+.Navigation_bar_table{
+	font-family: Courier;
+}
+
+
+
+h1#aboutustitle {
+	text-align:center;
+	font-size:25px;
+	font-family: Courier;
+	color: black;
+}
+
+h2#aboutus {
+	text-align: center;
+	font-family: Courier;
+}
+

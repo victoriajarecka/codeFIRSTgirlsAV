@@ -17,12 +17,16 @@ body {
 }
 
 
-
 h1#Welcome {
 	text-align:center;
 	font-size:25px;
 	font-family: Courier;
 	color: black;
+}
+
+img#logo{
+	width:200px;
+	height:auto;
 }
 
 img {
@@ -37,17 +41,19 @@ img {
 
 /* You need this for all browsers to understand your CSS */
 .Landing_page_image {
+	width: 70%;
 	padding: 4px;
 	background-color: #fff;
 	border: 1px solid #ccc;*/   grey border for browsers that can't do transparency 
 	border: 1px solid rgba(0, 0, 0, 0.2);  /*put the transparency after for browsers that do */
-	margin-left:25px;
+	margin-left: 15%;
+	margin-right: 15%;
 	}
 
 p#Landing_page_description {
 	padding: 10px;
-	margin-left: : 10px;
-	margin-right: : 10px;
+	margin-left: 10%;
+	margin-right: 10%;
 	font-size: 20px;
 	text-align:justify;
 	font-family: Courier;
