@@ -28,7 +28,7 @@ h1#logosentence {
 
 .navigation_bar_table {
 	font-family: 'Proxima Nova', 'Medium', sans-serif;
-	color: #069EF2;
+	color: #4B3587;
 	font-weight: light;
 	font-size: 25px;
 }
@@ -73,7 +73,7 @@ p#landing_page_description {
 	}
 
 .socialmedia {
-	width: 200px;
+	width: 300px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
